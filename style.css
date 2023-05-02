@@ -1,0 +1,12 @@
+html {
+    background-color: darkolivegreen;
+}
+
+* {
+    flex: auto;
+    margin: auto;
+}
+
+img {
+    cursor: pointer;
+}

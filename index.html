@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                screens: {
+                    'sm': '640px',
+                    // => @media (min-width: 640px) { ... }
+
+                    'md': '768px',
+                    // => @media (min-width: 768px) { ... }
+
+                    'lg': '1024px',
+                    // => @media (min-width: 1024px) { ... }
+
+                    'xl': '1280px',
+                    // => @media (min-width: 1280px) { ... }
+
+                    '2xl': '1536px',
+                    // => @media (min-width: 1536px) { ... }
+                },
+                extend: {
+                    colors: {
+                        colors: 'pink',
+                        colors1: 'black',
+                    }
+                }
+            }
+        }
+    </script>
+</head>
+
+<body>
+    <div class="container mx-auto mx-w-[1320px] py-10  ">
+        <h1 class="text-3xl text-colors1 text-center py-5 bg-[pink] hover:scale-110 ">Welcome the Card lyouts♠️♠️</h1>
+
+    </div>
+    <div class="container mx-auto mx-w-[1320px] grid lg:grid-cols-4 md:grid-cols-2 gap-5 ">
+        <div class="lg:shadow md-shadow rounded ">
+            <div class="overflow-hidden">
+                <img class="hover:scale-110 duration-1000 " src="./img/pexels-piccinng-3052361.jpg" alt="img"
+                    height="200px" width="300px">
+            </div>
+
+            <h3 class="text-colors1 text-center">Royal touriest</h3>
+            <p class="text-colors1 text-center"><strike>5000</strike> 3000/-</p>
+        </div>
+
+        <div class="lg:shadow md-shadow rounded ">
+            <div class="overflow-hidden">
+                <img class="hover:scale-110 duration-1000 " src="./img/pexels-piccinng-3052361.jpg" alt="img"
+                    height="200px" width="300px">
+
+            </div>
+
+            <h3 class="text-colors1 text-center">Royal touriest</h3>
+            <p class="text-colors1 text-center"><strike>5000</strike> 3000/-</p>
+        </div>
+
+
+        <div class="lg:shadow md-shadow rounded ">
+            <div class="overflow-hidden">
+                <img class="hover:scale-110 duration-1000  " src="./img/pexels-piccinng-3052361.jpg" alt="img"
+                    height="200px" width="300px">
+            </div>
+            <h3 class="text-colors1 text-center">Royal touriest</h3>
+            <p class="text-colors1 text-center"><strike>5000</strike> 3000/-</p>
+        </div>
+
+        <div class="lg:shadow md-shadow rounded ">
+            <div class="overflow-hidden">
+                <img class="hover:scale-110 duration-1000  " src="./img/pexels-piccinng-3052361.jpg" alt="img"
+                    height="200px" width="300px">
+            </div>
+            <h3 class="text-colors1 text-center">Royal touriest</h3>
+            <p class="text-colors1 text-center"><strike>5000</strike> 3000/-</p>
+        </div>
+
+
+
+
+
+
+    </div>
+
+
+</body>
+
+</html>
